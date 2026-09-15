@@ -1,0 +1,36 @@
+RANSOMWARE DETECTION — TRAINING REPORT
+================================================================
+Dataset: /kaggle/input/datasets/swastiksingh123/ransomware-hardware/ransomware_dataset_3k_55_45 (1).csv
+Rows: 3000
+Normal samples: 1650
+Ransomware samples: 1350
+
+MODEL
+Parameters: 2706
+Architecture: 8 -> Normalization -> 64 -> 32 -> 1
+Dropout: 0.3
+L2: 0.0001
+Learning rate: 0.001
+Decision threshold: 0.45
+
+TEST RESULTS
+Accuracy: 1.000000
+Precision: 1.000000
+Recall: 1.000000
+F1: 1.000000
+ROC-AUC: 1.000000
+PR-AUC: 1.000000
+TN=248, FP=0, FN=0, TP=202
+
+CROSS VALIDATION
+Mean ROC-AUC: 1.000000
+Std ROC-AUC: 0.000000
+
+DATASET DIAGNOSTIC
+Best single-feature ROC-AUC: 1.000000
+
+TFLITE
+Size bytes: 9072
+Mean Keras/TFLite delta: 0.00046433
+Max Keras/TFLite delta: 0.00364345
+Class agreement: 1.000000
