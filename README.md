@@ -603,14 +603,5 @@ That statement preserves both the engineering achievement and the statistical li
 
 ---
 
-## 26. Resume-Safe Project Description
-
-**Hardware-Telemetry Ransomware Detection & TinyML Deployment**  
-Developed an 8-feature hardware/system-telemetry ransomware detection pipeline with comprehensive EDA, stratified evaluation, five-fold cross-validation, threshold/error analysis and a compact TensorFlow neural classifier. Converted the trained model to float16 TensorFlow Lite (~8.86 KB) and validated Keras–TFLite prediction parity before exporting the model as a C-compatible header for embedded integration.
-
----
-
-## License
-
-Add the license appropriate for the repository and dataset usage.
+age.
 
